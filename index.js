@@ -99,7 +99,7 @@ run().catch(console.dir);
 app.get("/", (req, res) => {
   res.send("Running Genius Server");
 });
-app.get("/hero", (req, res) => {
+app.get("/heroku", (req, res) => {
   res.send("heroku test");
 });
 
